@@ -27,7 +27,7 @@ public class MediaFragment extends Fragment {
     private String mParam2;
 
     public MediaFragment() {
-        // Required empty public constructor
+
     }
 
     /**

@@ -1,4 +1,4 @@
-package me.app.demo;
+package me.app.demo.user;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,10 @@ import android.text.style.ClickableSpan;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import me.app.demo.R;
 
 public class RegisterActivity extends AppCompatActivity {
 

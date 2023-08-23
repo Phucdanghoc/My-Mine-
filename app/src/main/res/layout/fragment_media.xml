@@ -31,15 +31,15 @@
             >
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:background="@drawable/instagram"
                 android:layout_marginRight="5dp"
                 />
 
             <Button
-                android:layout_width="174dp"
-                android:layout_height="60dp"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
                 android:text="Instagram"
                 android:textStyle="italic"
                 android:background="@drawable/border_black" />
@@ -55,16 +55,88 @@
             >
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:background="@drawable/facebook"
                 android:layout_marginRight="5dp"
                 />
 
             <Button
-                android:layout_width="174dp"
-                android:layout_height="60dp"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
                 android:text="Facebook"
+                android:textStyle="italic"
+                android:background="@drawable/border_black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/user_discord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/discord"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:text="Discord"
+                android:textStyle="italic"
+                android:background="@drawable/border_black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/user_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/twitter"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:text="Twitter"
+                android:textStyle="italic"
+                android:background="@drawable/border_black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/user_tiktok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tiktok"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:text="Tiktok"
                 android:textStyle="italic"
                 android:background="@drawable/border_black" />
 

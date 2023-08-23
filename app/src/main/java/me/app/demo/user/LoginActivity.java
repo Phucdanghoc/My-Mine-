@@ -1,4 +1,4 @@
-package me.app.demo;
+package me.app.demo.user;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.LinearLayout;
+
+import me.app.demo.R;
 
 public class LoginActivity extends AppCompatActivity {
 
