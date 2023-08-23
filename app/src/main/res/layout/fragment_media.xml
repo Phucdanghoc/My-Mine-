@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MediaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/user_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="434dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Connect to me"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:id="@+id/user_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/instagram"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="174dp"
+                android:layout_height="60dp"
+                android:text="Instagram"
+                android:textStyle="italic"
+                android:background="@drawable/border_black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/user_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/facebook"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="174dp"
+                android:layout_height="60dp"
+                android:text="Facebook"
+                android:textStyle="italic"
+                android:background="@drawable/border_black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>
