@@ -1,4 +1,4 @@
-package me.app.demo;
+package me.app.demo.user;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import me.app.demo.R;
 
 public class ForgetPasswordActivity extends AppCompatActivity {
     private EditText email;

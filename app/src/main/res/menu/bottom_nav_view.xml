@@ -5,14 +5,14 @@
         android:icon="@drawable/baseline_home_24"
         android:id="@+id/home"
         />
-    <item android:title="@string/profile"
-        android:icon="@drawable/twotone_person_24"
-        android:id="@+id/profile"/>
-    <item android:title="@string/note"
-        android:icon="@drawable/baseline_notes_24"
-        android:id="@+id/note"/>
+    <item android:title="@string/setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/setting"/>
     <item android:title="@string/qr"
         android:icon="@drawable/baseline_qr_code_scanner_24"
         android:id="@+id/qr"/>
+    <item android:title="@string/note"
+        android:icon="@drawable/baseline_notes_24"
+        android:id="@+id/note"/>
 
 </menu>
